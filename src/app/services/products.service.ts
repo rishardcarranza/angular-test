@@ -19,6 +19,8 @@ export class ProductsService {
             .subscribe((resp: Product[]) => {
                 this.products = resp;
                 this.loading = false;
+                // setTimeout(() => {
+                // }, 2000);
             }
         );
     }
